@@ -1,0 +1,115 @@
+
+header {
+   
+    background-color: #007bff;
+    color: rgb(164, 181, 208);
+    position: fixed;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index:1;
+}
+#resume_form_cont{
+    border:1px #8d0f0f;
+    height: 395px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    background-color:rgb(222, 213, 192);
+    color:rgb(19, 17, 17);
+    display: flex;
+    justify-content: center;
+    position:relative;
+    box-shadow: 0px 0px 20px 2px rgb(188, 188, 228);
+    left: 1px;
+    margin-top: 30px; 
+    
+    }
+
+
+#resume_form_cont h1{
+   font-weight:500;
+   margin:10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#resume_form_cont a{
+  color:rgb(188, 183, 194);
+
+}  
+
+
+.contact{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.column button{
+    border:1px  solid green;
+    background-color:rgb(81, 81, 210);
+    border-radius: 15px;
+    padding: 5px;
+    margin:20px 10px;
+    color:rgb(246, 244, 245);
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.column2 button{
+    border:1px  solid rgb(12, 13, 12);
+    background-color:rgb(251, 254, 253);
+    border-radius: 20px;
+    padding: 5px;
+    margin:20px 10px;
+    color:rgb(11, 10, 10);
+}
+.contact1{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(251, 254, 253);
+    padding: 5px;
+
+}
+ .contact2 {
+    margin-top: -395px; 
+    padding: 15px;
+    background-color:rgb(222, 213, 192);;
+    text-align: center;
+    float: right;
+    position:relative;
+    left:300px;
+    box-shadow: 0px 0px 20px 2px rgb(188, 188, 228);
+    
+    
+}
+
+.contact2 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact2 p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
